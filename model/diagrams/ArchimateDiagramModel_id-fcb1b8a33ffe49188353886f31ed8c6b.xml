@@ -81,7 +81,7 @@
           href="CompositionRelationship_id-aa30305d38474882a2a99da33df6fc52.xml#id-aa30305d38474882a2a99da33df6fc52"/>
     </sourceConnections>
     <bounds
-        x="216"
+        x="264"
         y="48"
         width="661"
         height="433"/>
@@ -300,6 +300,16 @@
             id="id-4a0823fdbffd4294b385216110854d33"
             source="id-d251a226a9dd4332a0259152cb8a3fa4"
             target="id-c0b016cf51644a49a6c1a26a0d1ba23b">
+          <sourceConnections
+              id="id-8419442e109e4bf3b0c91b9c0e99e987"
+              source="id-4a0823fdbffd4294b385216110854d33"
+              target="id-35ec0c7db30c48beb09aac100e54ce2a">
+            <bendpoints
+                startX="-6"
+                startY="-115"
+                endX="-140"
+                endY="32"/>
+          </sourceConnections>
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_id-b2ea8876b0f643d9a44e83306e940eb7.xml#id-b2ea8876b0f643d9a44e83306e940eb7"/>
@@ -371,6 +381,9 @@
         id="id-33160c1682e24f9ea772e221a52c552a"
         source="id-2e66d74d31154b00901d6665c22b0914"
         target="id-3996ef927cc84301858c138b53b4def2">
+      <features
+          name="labelExpression"
+          value="получение &#xD;&#xA;моделей &#xD;&#xA;данных"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-bf6b8ccf6f86402c995777922c702239.xml#id-bf6b8ccf6f86402c995777922c702239"/>
@@ -406,6 +419,9 @@
         id="id-e83350fa240e4cbe8bf393cb859a082d"
         source="id-6411ecde474a47c8bbc54e291c81ccbb"
         target="id-3996ef927cc84301858c138b53b4def2">
+      <features
+          name="labelExpression"
+          value="проверка &#xD;&#xA;поставщика &#xD;&#xA;прошивки"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-fb39fdc899504117956b426378e6ba2c.xml#id-fb39fdc899504117956b426378e6ba2c"/>
@@ -423,7 +439,7 @@
       id="id-85a55676b71a4274a411c74e2a2ae17c"
       targetConnections="id-7e0d59a04ca440ba9bab231b9b78b080">
     <bounds
-        x="948"
+        x="997"
         y="276"
         width="157"
         height="73"/>
@@ -439,7 +455,7 @@
         name="gradient"
         value="1"/>
     <bounds
-        x="948"
+        x="996"
         y="180"
         width="197"
         height="55"/>
@@ -464,7 +480,7 @@
       id="id-2b16258d218840d1a1ee1697e683681e"
       targetConnections="id-a5f48fd26c5a46fc9b5f00508234a8da">
     <bounds
-        x="948"
+        x="984"
         y="108"
         width="183"
         height="55"/>
@@ -482,5 +498,17 @@
         y="516"
         width="385"
         height="109"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-35ec0c7db30c48beb09aac100e54ce2a"
+      targetConnections="id-8419442e109e4bf3b0c91b9c0e99e987"
+      textAlignment="1"
+      fillColor="#ff8000"
+      content="Кто должен проинформировать пользователей?">
+    <bounds
+        x="936"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
