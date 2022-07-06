@@ -47,8 +47,8 @@
 ## Архитектура
 
 ### Легенда
-![](model/diagrams/C4/Legend.png)
+![](C4/Legend.png)
 ### Контекст системы
-![](model/diagrams/C4/L1.png)
+![](C4/L1.png)
 ### Контейнерная диаграмма
-![](model/diagrams/C4/L2.png)
+![](C4/L2.png)
