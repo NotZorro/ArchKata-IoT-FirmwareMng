@@ -26,7 +26,7 @@
       targetConnections="id-6fd900f015494d46ac8e3be58b62cf81 id-b670f9c5cee3448a8779f4f9f52b807b">
     <features
         name="labelExpression"
-        value="Клиент"/>
+        value="Владелец устройства"/>
     <bounds
         x="252"
         y="72"

@@ -5,32 +5,213 @@
     id="id-cfa4c7a324314581abe19f7fc52dfd24">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-37098b91f4dc47a58dc217da8364dfc3">
+      id="id-ae3f90e16498435b97395e85dd2954f9"
+      textAlignment="1"
+      type="1">
     <features
         name="labelExpression"
-        value="Модель устройства"/>
+        value="Inner context"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-91449db9269341c99e33e1eb39108899"
+        source="id-ae3f90e16498435b97395e85dd2954f9"
+        target="id-37098b91f4dc47a58dc217da8364dfc3">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-da7eea29d37e436493be73489a26cc8c.xml#id-da7eea29d37e436493be73489a26cc8c"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0ac35dc9cc8f4bf3b7729c0371555583"
+        source="id-ae3f90e16498435b97395e85dd2954f9"
+        target="id-85d4cf77f56144f39b95bd01fcec9d16">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-2ea64c5203534e15bf358c5967810177.xml#id-2ea64c5203534e15bf358c5967810177"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0b83dfbd799d46d4bae37d5f8a412765"
+        source="id-ae3f90e16498435b97395e85dd2954f9"
+        target="id-2fd2d2d8be1b4eef9e9ffc241628a7bf">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-480742b08593480f87b72e99ca980f6a.xml#id-480742b08593480f87b72e99ca980f6a"/>
+    </sourceConnections>
     <bounds
-        x="394"
-        y="211"
-        width="120"
-        height="55"/>
+        x="240"
+        y="84"
+        width="517"
+        height="145"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-37098b91f4dc47a58dc217da8364dfc3"
+        targetConnections="id-91449db9269341c99e33e1eb39108899 id-de74258d93ef49f8b7afb7c33504c504">
+      <features
+          name="labelExpression"
+          value="Модель устройства"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e9cec0b1459c4615a0a2afd22db34e4e"
+          source="id-37098b91f4dc47a58dc217da8364dfc3"
+          target="id-85d4cf77f56144f39b95bd01fcec9d16">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-5ad57ffd34e647fc9857a818e905cce9.xml#id-5ad57ffd34e647fc9857a818e905cce9"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-260fb79d8ace42608aacc05239a6146b"
+          source="id-37098b91f4dc47a58dc217da8364dfc3"
+          target="id-2fd2d2d8be1b4eef9e9ffc241628a7bf">
+        <bendpoints
+            startY="-62"
+            endX="-348"
+            endY="-62"/>
+        <bendpoints
+            startX="360"
+            startY="-62"
+            endX="12"
+            endY="-62"/>
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-386dadaf2629448dabfc52e460544e30.xml#id-386dadaf2629448dabfc52e460544e30"/>
+      </sourceConnections>
+      <bounds
+          x="24"
+          y="71"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-39be9c62e6504fceb33afe24df2866f4.xml#id-39be9c62e6504fceb33afe24df2866f4"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-85d4cf77f56144f39b95bd01fcec9d16"
+        targetConnections="id-0ac35dc9cc8f4bf3b7729c0371555583 id-e9cec0b1459c4615a0a2afd22db34e4e id-56240a06e8594032938f97995914f496">
+      <features
+          name="labelExpression"
+          value="Категория устройства"/>
+      <bounds
+          x="204"
+          y="71"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-c28bcf70bb8148e484cbb7a306b218d8.xml#id-c28bcf70bb8148e484cbb7a306b218d8"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-2fd2d2d8be1b4eef9e9ffc241628a7bf"
+        targetConnections="id-0b83dfbd799d46d4bae37d5f8a412765 id-260fb79d8ace42608aacc05239a6146b id-b566423d7dea49c3ac4efd75c420bae9">
+      <features
+          name="labelExpression"
+          value="Тип устройства"/>
+      <bounds
+          x="372"
+          y="71"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-94e8e7b8c25f4e4fa470aa8982579b01.xml#id-94e8e7b8c25f4e4fa470aa8982579b01"/>
+    </children>
     <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-39be9c62e6504fceb33afe24df2866f4.xml#id-39be9c62e6504fceb33afe24df2866f4"/>
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-4925b852501a49dbbd3260b1175cd6d1.xml#id-4925b852501a49dbbd3260b1175cd6d1"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-85d4cf77f56144f39b95bd01fcec9d16">
+      id="id-f2a115fc41294cb9850195ae044dc180">
+    <features
+        name="labelExpression"
+        value="Модель устройства"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-de74258d93ef49f8b7afb7c33504c504"
+        source="id-f2a115fc41294cb9850195ae044dc180"
+        target="id-37098b91f4dc47a58dc217da8364dfc3">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-2c757653d3104681ad614f80aea79d75.xml#id-2c757653d3104681ad614f80aea79d75"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-884ec9a2fe5b47af90563536c1528baf"
+        source="id-f2a115fc41294cb9850195ae044dc180"
+        target="id-6230f979ffd3490b9b3879ba7005f8ec">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-05be98d0185240a990dcb0176377f28e.xml#id-05be98d0185240a990dcb0176377f28e"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-31362bdddfb84557bb7388e577773056"
+        source="id-f2a115fc41294cb9850195ae044dc180"
+        target="id-240fcf96c0cb4ded9a835e5d46f5d044">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-4f4773990f604c9d9c582e418f64db5e.xml#id-4f4773990f604c9d9c582e418f64db5e"/>
+    </sourceConnections>
+    <bounds
+        x="264"
+        y="360"
+        width="469"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:DataObject"
+        href="DataObject_id-79815cf58bf040918eba8e6342d9282d.xml#id-79815cf58bf040918eba8e6342d9282d"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-6230f979ffd3490b9b3879ba7005f8ec"
+      targetConnections="id-884ec9a2fe5b47af90563536c1528baf">
     <features
         name="labelExpression"
         value="Категория устройства"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-56240a06e8594032938f97995914f496"
+        source="id-6230f979ffd3490b9b3879ba7005f8ec"
+        target="id-85d4cf77f56144f39b95bd01fcec9d16">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-6243dea1984f4e47a348b73025e218cf.xml#id-6243dea1984f4e47a348b73025e218cf"/>
+    </sourceConnections>
     <bounds
-        x="538"
-        y="211"
+        x="439"
+        y="264"
         width="120"
         height="55"/>
     <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-c28bcf70bb8148e484cbb7a306b218d8.xml#id-c28bcf70bb8148e484cbb7a306b218d8"/>
+        xsi:type="archimate:DataObject"
+        href="DataObject_id-61b0f107ebe54d64bf892187e547196c.xml#id-61b0f107ebe54d64bf892187e547196c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-240fcf96c0cb4ded9a835e5d46f5d044"
+      targetConnections="id-31362bdddfb84557bb7388e577773056">
+    <features
+        name="labelExpression"
+        value="Тип устройства"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b566423d7dea49c3ac4efd75c420bae9"
+        source="id-240fcf96c0cb4ded9a835e5d46f5d044"
+        target="id-2fd2d2d8be1b4eef9e9ffc241628a7bf">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-0b21eb3548f54634bac04f79993c4272.xml#id-0b21eb3548f54634bac04f79993c4272"/>
+    </sourceConnections>
+    <bounds
+        x="613"
+        y="264"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:DataObject"
+        href="DataObject_id-50b3487a02d3406594d8aaa572b83eed.xml#id-50b3487a02d3406594d8aaa572b83eed"/>
   </children>
 </archimate:ArchimateDiagramModel>

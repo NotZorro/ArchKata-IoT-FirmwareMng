@@ -815,6 +815,15 @@
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-c3fb150304a2432f9f0b0174c62359d5.xml#id-c3fb150304a2432f9f0b0174c62359d5"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-6aef4cc31bd94cff90290b6a2ebe514c"
+          source="id-1065c5c2084f4749b83ca175f3fdebd6"
+          target="id-0428dab899a84c1fa9949c51b530735e">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-29bbdb89782e4da7bf684d7c3b1f7867.xml#id-29bbdb89782e4da7bf684d7c3b1f7867"/>
+      </sourceConnections>
       <bounds
           x="24"
           y="492"
@@ -931,6 +940,22 @@
         <archimateElement
             xsi:type="archimate:BusinessObject"
             href="BusinessObject_id-b79368f3cc3d411987f17dea7f318eb7.xml#id-b79368f3cc3d411987f17dea7f318eb7"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-0428dab899a84c1fa9949c51b530735e"
+          targetConnections="id-6aef4cc31bd94cff90290b6a2ebe514c">
+        <features
+            name="labelExpression"
+            value="Телеметрия"/>
+        <bounds
+            x="192"
+            y="192"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:BusinessObject"
+            href="BusinessObject_id-ccb607c6b13742eb8a6f3f167bc8420e.xml#id-ccb607c6b13742eb8a6f3f167bc8420e"/>
       </children>
       <archimateElement
           xsi:type="archimate:Grouping"

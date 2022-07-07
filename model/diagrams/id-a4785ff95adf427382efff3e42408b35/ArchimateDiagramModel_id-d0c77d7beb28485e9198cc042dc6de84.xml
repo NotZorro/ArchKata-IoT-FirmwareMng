@@ -544,7 +544,7 @@
           targetConnections="id-cdea8ddc61354e0099085ea5950f06a1 id-3d5a5b8adec7422aa70d97dde117c0b8 id-8baad96a713b4f20942410a212bc5393">
         <features
             name="labelExpression"
-            value="Customer"/>
+            value="Владелец устройства"/>
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-57a73d0026c14ebba6dd5ea8657a35a1"
