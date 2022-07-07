@@ -10,6 +10,7 @@
 - [Архитектура](#архитектура)
   - [Контекст системы](#контекст-системы)
   - [Контейнерная диаграмма](#контейнерная-диаграмма)
+  - [Справка по диаграммам Archi](#cправка-по-диаграммам-Archi)
  
 ## Команда
 - Алан Кудухов alan.kuduhov@mts.ru 
@@ -116,3 +117,45 @@
 
 ### Контейнерная диаграмма
 ![](C4/L2.png)
+
+### Справка по диаграммам Archi
+Полный набор диаграмм можно посмотреть в [папке с моделями Archi](model)
+
+Ниже представлен набор ключевых view
+
+### Value stream
+![](ArchiImgs/Value%20stream.png)
+
+### Capability map
+![](ArchiImgs/Capability%20map.png)
+
+### Data Model
+![](ArchiImgs/Data%20model.png)
+
+### Context boundary map
+![](ArchiImgs/Context%20boundary%20map.png)
+
+### Firmware Catalog
+
+#### Capability overview
+![](ArchiImgs/Firmware%20Catalog/Capability%20overview.png)
+
+### Data model
+![](ArchiImgs/Firmware%20Catalog/Data%20model.png)
+
+### Service model
+![](ArchiImgs/Firmware%20Catalog/Service%20model.png)
+
+### Components 
+![](ArchiImgs/Firmware%20Catalog/Components.png)
+
+### Firmware Management
+
+#### Capability overview
+![](ArchiImgs/Firmware%20Mng/Capability%20overview.png)
+
+### Data model
+![](ArchiImgs/Firmware%20Mng/Data%20model.png)
+
+### Service model
+![](ArchiImgs/Firmware%20Mng/Service%20model.png)
