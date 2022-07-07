@@ -11,7 +11,14 @@
   - [Контекст системы](#контекст-системы)
   - [Контейнерная диаграмма](#контейнерная-диаграмма)
   - [Справка по диаграммам Archi](#cправка-по-диаграммам-Archi)
- 
+  - [Value Stream](#value-stream)
+  - [Capability map](#capability-map)
+  - [Data model](#data-model)
+  - [Context boundary map](#context-boundary-map)
+  - [Firmware Catalog](#firmware-catalog)
+  - [Firmware Management](#firmware-management) 
+
+
 ## Команда
 - Алан Кудухов alan.kuduhov@mts.ru 
 - Илья Колесников igkolesn@mts.ru
@@ -140,13 +147,13 @@
 #### Capability overview
 ![](ArchiImgs/Firmware%20Catalog/Capability%20overview.png)
 
-### Data model
+#### Data model
 ![](ArchiImgs/Firmware%20Catalog/Data%20model.png)
 
-### Service model
+#### Service model
 ![](ArchiImgs/Firmware%20Catalog/Service%20model.png)
 
-### Components 
+#### Components 
 ![](ArchiImgs/Firmware%20Catalog/Components.png)
 
 ### Firmware Management
@@ -154,8 +161,8 @@
 #### Capability overview
 ![](ArchiImgs/Firmware%20Mng/Capability%20overview.png)
 
-### Data model
+#### Data model
 ![](ArchiImgs/Firmware%20Mng/Data%20model.png)
 
-### Service model
+#### Service model
 ![](ArchiImgs/Firmware%20Mng/Service%20model.png)
