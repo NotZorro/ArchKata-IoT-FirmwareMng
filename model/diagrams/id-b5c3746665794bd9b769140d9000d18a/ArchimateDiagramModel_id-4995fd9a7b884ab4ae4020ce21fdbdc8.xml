@@ -811,7 +811,7 @@
       type="1">
     <features
         name="labelExpression"
-        value="Репозиторий версий прошивок"/>
+        value="Репозиторий версий прошивок (CDN)"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-1a918404f5ef41a6bcd49efb68e28c02"
