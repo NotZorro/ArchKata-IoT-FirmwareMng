@@ -1,0 +1,96 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data model"
+    id="id-6507fa50d4ff4a5690563f5df424c851">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-2390ad62a8714367a586365be4823d0d">
+    <features
+        name="labelExpression"
+        value="Прошивка"/>
+    <bounds
+        x="252"
+        y="197"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-6abc3791208542b3b63c743bb47c5caf.xml#id-6abc3791208542b3b63c743bb47c5caf"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-1dc88a7f66854ce68a220f9a9fe79003">
+    <features
+        name="labelExpression"
+        value="Зависимость прошивки"/>
+    <bounds
+        x="399"
+        y="197"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-07fb37ce8e8441efa54b31167e351004.xml#id-07fb37ce8e8441efa54b31167e351004"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-59da723b4bcd4bda8e57424fb697906f">
+    <features
+        name="labelExpression"
+        value="Метаданные прошивки"/>
+    <bounds
+        x="543"
+        y="197"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-1d16bd2b7c3e46d8aefe832af372d225.xml#id-1d16bd2b7c3e46d8aefe832af372d225"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-3d4cffe82d504bb58f6e4796d1352333">
+    <features
+        name="labelExpression"
+        value="Фолксономия прошивки"/>
+    <bounds
+        x="399"
+        y="274"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-0e4c0781cf784425ac3b79264cb74977.xml#id-0e4c0781cf784425ac3b79264cb74977"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-0aee28b45225458090d72596613d099f">
+    <features
+        name="labelExpression"
+        value="Версия прошивки"/>
+    <bounds
+        x="252"
+        y="274"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-e024c0ba94154f6386f64427df21f37d.xml#id-e024c0ba94154f6386f64427df21f37d"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-a9aeea097b7f451694b2403a2386cd3e">
+    <features
+        name="labelExpression"
+        value="Модель устройства"/>
+    <bounds
+        x="249"
+        y="409"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-39be9c62e6504fceb33afe24df2866f4.xml#id-39be9c62e6504fceb33afe24df2866f4"/>
+  </children>
+</archimate:ArchimateDiagramModel>

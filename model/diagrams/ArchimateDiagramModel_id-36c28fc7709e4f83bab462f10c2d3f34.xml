@@ -460,15 +460,6 @@
         value="Обновление и тестирование прошивки на устройстве"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-3019a2ff7ab346b28ad04cf22208846e"
-        source="id-aa08364885f444f4b49a9fb75a6e9b3e"
-        target="id-21a2cc26c81f40ada773929bc652f3a9">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-7742b130d54d4ea68fa33b2054014cb9.xml#id-7742b130d54d4ea68fa33b2054014cb9"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-bdb59c0965ba47bea1a7fec6581e1ae3"
         source="id-aa08364885f444f4b49a9fb75a6e9b3e"
         target="id-ad6cec405f654e5ea9eae4b6fdca7e24">
@@ -507,34 +498,18 @@
         x="768"
         y="336"
         width="349"
-        height="265"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-21a2cc26c81f40ada773929bc652f3a9"
-        targetConnections="id-3019a2ff7ab346b28ad04cf22208846e">
-      <features
-          name="labelExpression"
-          value="Firmware Uploader"/>
-      <bounds
-          x="36"
-          y="48"
-          width="277"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:Capability"
-          href="Capability_id-6d51a40b8e734950b6ffe09514afcc7a.xml#id-6d51a40b8e734950b6ffe09514afcc7a"/>
-    </children>
+        height="205"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ad6cec405f654e5ea9eae4b6fdca7e24"
         targetConnections="id-bdb59c0965ba47bea1a7fec6581e1ae3">
       <features
           name="labelExpression"
-          value="Firmware Update Management"/>
+          value="Firmware Management"/>
       <bounds
-          x="36"
-          y="120"
-          width="277"
+          x="24"
+          y="48"
+          width="301"
           height="55"/>
       <archimateElement
           xsi:type="archimate:Capability"
@@ -549,9 +524,9 @@
           name="labelExpression"
           value="Device Management"/>
       <bounds
-          x="36"
-          y="192"
-          width="276"
+          x="24"
+          y="120"
+          width="301"
           height="55"/>
       <archimateElement
           xsi:type="archimate:Capability"
@@ -612,6 +587,9 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e00b80250d5342a191ed63d2f24d382c"
       targetConnections="id-6f4829d25e6d42d4ade69b315926ed1a">
+    <features
+        name="labelExpression"
+        value="Рост удовлетворенности клиентов"/>
     <bounds
         x="1392"
         y="195"
