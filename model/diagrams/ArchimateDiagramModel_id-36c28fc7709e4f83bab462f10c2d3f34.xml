@@ -166,6 +166,15 @@
       <features
           name="labelExpression"
           value="Сбор метрик с устройства и фиксация &#xD;&#xA;версии прошивки"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-6f4829d25e6d42d4ade69b315926ed1a"
+          source="id-cd8a1be3c9b8466c8ef3da1ca3d53012"
+          target="id-e00b80250d5342a191ed63d2f24d382c">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_id-e1bb1661d9a540fa8d31be33c4aba295.xml#id-e1bb1661d9a540fa8d31be33c4aba295"/>
+      </sourceConnections>
       <bounds
           x="1212"
           y="36"
@@ -521,7 +530,7 @@
         targetConnections="id-bdb59c0965ba47bea1a7fec6581e1ae3">
       <features
           name="labelExpression"
-          value="Firmware Testing"/>
+          value="Firmware Update Management"/>
       <bounds
           x="36"
           y="120"
@@ -534,10 +543,11 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-288ee74404bb4b48aabfafba7127b97f"
-        targetConnections="id-e920cb9d74db43a39971cf1b5f3c025a">
+        targetConnections="id-e920cb9d74db43a39971cf1b5f3c025a"
+        alpha="100">
       <features
           name="labelExpression"
-          value="Device Control"/>
+          value="Device Management"/>
       <bounds
           x="36"
           y="192"
@@ -550,5 +560,65 @@
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-e3b547afbe0440c3b77a48ffb547aad4.xml#id-e3b547afbe0440c3b77a48ffb547aad4"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-4027fd2d5d384ccf9ad5b87a6ed2dcb7"
+      name="Group"
+      textAlignment="1"
+      fillColor="#ffffff"
+      borderType="1">
+    <features
+        name="labelExpression"
+        value="Легенда"/>
+    <bounds
+        x="1608"
+        y="128"
+        width="217"
+        height="190"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-70ecbe3d208041a583c6e033a5ceb9bd">
+      <features
+          name="labelExpression"
+          value="Внутренняя capability"/>
+      <bounds
+          x="24"
+          y="36"
+          width="169"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-bf9bb8fbfeff42558336a5b2a7cfbabe.xml#id-bf9bb8fbfeff42558336a5b2a7cfbabe"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-23b480f976304d2d94500b37f3478a6a"
+        alpha="100">
+      <features
+          name="labelExpression"
+          value="Внешняя capability"/>
+      <bounds
+          x="24"
+          y="108"
+          width="169"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-43a50091fb224465a7fdc20c29fcc021.xml#id-43a50091fb224465a7fdc20c29fcc021"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-e00b80250d5342a191ed63d2f24d382c"
+      targetConnections="id-6f4829d25e6d42d4ade69b315926ed1a">
+    <bounds
+        x="1392"
+        y="195"
+        width="169"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Outcome"
+        href="Outcome_id-71a22365a4ca45ee8b0721af445b7ca1.xml#id-71a22365a4ca45ee8b0721af445b7ca1"/>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -125,7 +125,7 @@
       alpha="100">
     <features
         name="labelExpression"
-        value="Upload Management"/>
+        value="Firmware Update Management"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-33f9f989ed6a4e048a24236003e3f1a9"
@@ -430,7 +430,7 @@
       alpha="100">
     <features
         name="labelExpression"
-        value="Device Control"/>
+        value="Device Management"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-79d6e9e45c0342aebcefc127cec5c96c"
