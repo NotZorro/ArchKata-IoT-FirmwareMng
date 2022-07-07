@@ -127,8 +127,25 @@
 
 ### Справка по диаграммам Archi
 Полный набор диаграмм можно посмотреть в [папке с моделями Archi](model)
+Для просмотра необходимо:
+- Установить [plugin coArchi](https://www.archimatetool.com/plugins/)
+  - Скачать plugin
+  - Запустить Archi
+  - Открыть Help/Manage Plug-ins...
+  - Нажать Install New и выбрать скачанный plug-in
+  - перезагрузить Archi
+- Подключиться к репозиторию
+  - Запустить Archi
+  - Открыть Collaboration/Import Model from workspace
+  - Придумать и ввести два раза пароль (запомнить)
+  - В поле URL ввести SSH репозитория (git@gitlab.services.mts.ru:ecat/architecture-kata.git)
+- Загрузить проект
+  - Открыть Collaboration/Toggle Collaboration Workspave
+  - В открывшейся зоне выбрать правой кнопкой нажать на Fimeware management [master] и в контекстном меню выбрать Open Model
 
-Ниже представлен набор ключевых view
+
+Ниже представлен набор ключевых view.
+**Все картинки можно открыть в отдельной вкладке для просмотра в большем размере**
 
 ### Value stream
 ![](ArchiImgs/Value%20stream.png)
