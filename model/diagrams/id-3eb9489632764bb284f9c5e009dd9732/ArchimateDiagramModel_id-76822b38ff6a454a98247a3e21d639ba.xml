@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Firmware UseCase Прогон"
+    name="UC-03: Прогон"
     id="id-76822b38ff6a454a98247a3e21d639ba">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"

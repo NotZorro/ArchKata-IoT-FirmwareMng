@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Firmware UseCase Обновления"
+    name="UC-02: Обновления"
     id="id-1490862b323c4a3bb63b0c8816ce0755">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
