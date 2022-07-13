@@ -15,6 +15,7 @@
   - [Capability map](#capability-map)
   - [Data model](#data-model)
   - [Context boundary map](#context-boundary-map)
+  - [Ключевые бизнес-процессы](#ключевые-бизнес-процессы)
   - [Firmware Catalog](#firmware-catalog)
   - [Firmware Management](#firmware-management) 
 
@@ -178,6 +179,20 @@
 
 ### Context boundary map
 ![](ArchiImgs/Context%20boundary%20map.png)
+
+### Ключевые бизнес процессы
+
+#### Создание пакета обновлений
+![](ArchiImgs/UC.02%20Создание%20пакета%20обновлений.png)
+
+#### Обновление устройства
+![](ArchiImgs/UC.04%20Обновление%20устройства%20согласно%20плану%20обновлений.png)
+
+##### Выбор времени обновления
+![](ArchiImgs/UC.04_1%20Выбор%20времени%20обновления.png)
+
+#### Создание сценария обновлений
+![](ArchiImgs/UC.04_2%20Создание%20сценария%20обновлений.png)
 
 ### Firmware Catalog
 
